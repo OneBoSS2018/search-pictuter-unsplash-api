@@ -1,0 +1,261 @@
+.container
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.MainI
+{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+    vertical-align: middle;
+    position: relative;
+}
+
+.MainA
+{
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+.MainA img
+{
+
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    position: absolute;
+    top: -250px;
+}
+
+
+
+.MainA input
+{
+    outline: none;
+    position: relative;
+    height: 50px;
+    width: 500px;
+    border-radius: 0 0 10px 10px;
+    border: 2px solid #61bac9;
+    text-align: center;
+}
+
+::placeholder {
+    color: black;
+}
+
+
+
+.MainA button
+{
+    position: relative;
+    z-index: 2;
+    top: -35px;
+    left: 230px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.MainA button svg:hover
+{
+    fill: #61bac9;
+    transition: linear 1s;
+}
+
+.MainA button svg:active, svg:focus
+{
+    outline: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: none;
+}
+
+.MainA div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.outPutI
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5px auto;
+    max-width: 700px;
+}
+
+.imgM
+{
+    flex:1 calc(50% - 30px); /* отнимем margin и скажем растягиваться */
+    margin:5px;
+    box-sizing:border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
+    min-width:50px;
+}
+
+.imgM img
+{
+    width: 340px;
+    height: 340px;
+    border: 1px solid #002211;
+}
+
+.nav
+{
+
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    z-index: 1;
+}
+
+.nav ul a
+{
+    text-decoration: none;
+}
+
+.nav ul
+{
+    display: flex;
+    list-style-type: none;
+}
+
+.logo {
+    width: 30%;
+    margin-left: 20px;
+}
+
+.logo a
+{
+    color: #61bac9;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Hanalei Fill', cursive;
+}
+
+.logo a:hover
+{
+    color: white;
+    transition: linear 0.6s;
+}
+
+.nav-items
+{
+    width: 70%;
+}
+
+.nav-items ul
+{
+    margin-left: 350px;
+}
+
+.nav-items ul li a{
+    color: #61bac9;
+}
+
+.nav-items ul li a:hover
+{
+    color: white;
+    transition: linear 0.6s;
+}
+
+.nav-items ul li
+{
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+footer
+{
+
+    position: relative;
+    bottom: 0;
+
+    background: #021;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.me h5
+{
+    font-family: "Bell MT";
+    font-size: 1.1rem;
+    color: #a2bbff;
+    margin-left: 15px;
+}
+
+.icons
+{
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons a img
+{
+    width: 30px;
+    height: 30px;
+
+}
+
+.search
+{
+    width: 100px;
+    background: white;
+    text-align: center;
+    border-radius: 7px 7px 7px 7px;
+    border: 2px solid white;
+}
+
+.search:hover
+{
+    background: #61bac9;
+    transition: linear 0.6s;
+}
+
+.ife
+{
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.ife svg
+{
+    margin-left: 5px;
+}
+
+.ife p
+{
+    font-size: 20px;
+    font-family: "Bodoni MT";
+}
+
+.query
+{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}

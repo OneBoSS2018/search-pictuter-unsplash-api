@@ -1,0 +1,206 @@
+@keyframes linearRun {
+    0%{
+        color: #61bac9;
+    }
+    25%{
+        color: white;
+    }
+    50%{
+        color: oldlace;
+    }
+    75%{
+        color: aquamarine;
+    }
+    100%{
+       color:  #021;
+    }
+}
+
+.main
+{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.nav
+{
+
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    z-index: 1;
+}
+
+.nav ul a
+{
+    text-decoration: none;
+}
+
+.nav ul
+{
+    display: flex;
+    list-style-type: none;
+}
+
+.logo {
+    width: 30%;
+    margin-left: 20px;
+}
+
+.logo a
+{
+    color: #61bac9;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Hanalei Fill', cursive;
+}
+
+.logo a:hover
+{
+    color: white;
+    transition: linear 0.6s;
+}
+
+.nav-items
+{
+    width: 70%;
+}
+
+.nav-items ul
+{
+    margin-left: 350px;
+}
+
+.nav-items ul li a{
+    color: #61bac9;
+}
+
+.nav-items ul li a:hover
+{
+    color: white;
+    transition: linear 0.6s;
+}
+
+.nav-items ul li
+{
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+.videoDiv{
+    position: relative;
+    align-items: center;
+}
+
+.videoDiv video
+{
+    width: 100%;
+    height: calc(100vh - 1vh);
+    position: relative;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.videoDiv  h2
+{
+    position: absolute;
+    top: 310px;
+    left: 180px;
+    color: #61bac9;
+    font-size: 3rem;
+    font-family: "Arial Black";
+}
+
+.videoDiv  a
+{
+    color: white;
+    position: absolute;
+    top: 450px;
+    left: 220px;
+    background: #61bac9;
+    text-decoration: none;
+    width: 150px;
+    height: 23px;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    font-family: "Bell MT";
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 2px solid #61bac9;
+}
+
+.videoDiv  a:hover
+{
+    color: #61bac9;
+    background: white;
+    transition: linear 0.6s;
+}
+
+.videoDiv  p
+{
+    animation: linearRun infinite 6s  ease;
+    font-size: 30px;
+    color: #61bac9;
+    position: absolute;
+    top: 380px;
+    left: 205px;
+}
+
+.main footer
+{
+    position: fixed;
+    bottom: 0;
+    background: #002211;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.me h5
+{
+    font-family: "Bell MT";
+    font-size: 1.1rem;
+    color: #a2bbff;
+    margin-left: 15px;
+}
+
+.icons
+{
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons a img
+{
+    width: 30px;
+    height: 30px;
+
+}
+
+.search
+{
+    width: 100px;
+    background: white;
+    text-align: center;
+    border-radius: 7px 7px 7px 7px;
+    border: 2px solid white;
+}
+
+.search:hover
+{
+    background: #61bac9;
+    transition: linear 0.6s;
+}
+
+
